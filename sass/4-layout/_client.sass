@@ -1,0 +1,33 @@
+#clients
+    position: relative
+    display: flex
+    text-align: center
+    flex-direction: column
+    background: #121d29
+    width: 100%
+    padding: 0 250px 200px 
+    padding-top: 100px
+    padding-bottom: 0
+     // responsive
+    @media screen and ( max-width: 1200px )
+        padding: 50px
+    .imgClient .img
+        display: flex
+        text-align: center
+        align-items: center
+        justify-content: center
+        list-style: none
+        img
+            width: 100%
+            max-width: 200px
+            margin: 70px
+            cursor: pointer
+            opacity: .5
+            transition: .25s
+             // responsive
+            @media screen and ( max-width: 1200px )
+                width: 50%
+                margin: 20px 0
+
+        img:hover,img:active
+            opacity: 1

@@ -1,0 +1,49 @@
+#form
+    background: #d71134
+    display: flex
+    width: 100%
+    justify-content: space-between
+    height: 100%
+    .content
+        padding: 100px
+        min-width: 300px
+    .bgForm
+        background-size: cover
+        background-position: center
+        width: 50%
+        // responsive
+        @media screen and ( max-width: 1200px )
+            display: none
+    .inputBox
+        margin-bottom: 50px
+        input,textarea
+            width: 100%
+            background: transparent
+            box-shadow: none
+            border: none
+            border-bottom: 2px solid #fff
+            outline: none
+            padding: 10px 0
+            font-size: 16
+            font-weight: 700
+            color: #fff
+        textarea
+            height: 150px
+        
+        input::placeholder,textarea::placeholder
+            color: #fff
+        input[type="submit"]:hover,input[type="submit"]:active
+            background: #FFF
+            color: #12222d
+            width: 150px
+            outline: none
+        input[type="submit"]
+            background: transparent
+            color: #fff
+            border: none
+            outline: auto
+            width: 150px
+            transition: .5s
+
+    
+
